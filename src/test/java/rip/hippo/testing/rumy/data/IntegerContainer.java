@@ -1,4 +1,4 @@
-package rip.hippo.testing.reflection.data;
+package rip.hippo.testing.rumy.data;
 
 /**
  * @author Hippo

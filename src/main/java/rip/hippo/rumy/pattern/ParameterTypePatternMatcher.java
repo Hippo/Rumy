@@ -1,8 +1,8 @@
-package rip.hippo.reflection.pattern;
+package rip.hippo.rumy.pattern;
 
-import rip.hippo.reflection.pattern.builder.StrongParameterTypePatternMatcherBuilder;
-import rip.hippo.reflection.pattern.impl.EmptyParameterTypePatternMatcher;
-import rip.hippo.reflection.pattern.impl.WeakParameterTypePatternMatcher;
+import rip.hippo.rumy.pattern.builder.StrongParameterTypePatternMatcherBuilder;
+import rip.hippo.rumy.pattern.impl.EmptyParameterTypePatternMatcher;
+import rip.hippo.rumy.pattern.impl.WeakParameterTypePatternMatcher;
 
 import java.lang.reflect.Executable;
 

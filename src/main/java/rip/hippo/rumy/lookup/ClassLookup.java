@@ -1,6 +1,6 @@
-package rip.hippo.reflection.lookup;
+package rip.hippo.rumy.lookup;
 
-import rip.hippo.reflection.context.ClassContext;
+import rip.hippo.rumy.context.ClassContext;
 
 import java.util.HashMap;
 import java.util.Map;

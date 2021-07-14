@@ -1,6 +1,6 @@
-package rip.hippo.reflection.context;
+package rip.hippo.rumy.context;
 
-import rip.hippo.reflection.pattern.ParameterTypePatternMatcher;
+import rip.hippo.rumy.pattern.ParameterTypePatternMatcher;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;
@@ -9,7 +9,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Objects;
 
-import static rip.hippo.reflection.pattern.ParameterTypePatternMatcher.EMPTY;
+import static rip.hippo.rumy.pattern.ParameterTypePatternMatcher.EMPTY;
 
 /**
  * @author Hippo

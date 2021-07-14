@@ -1,12 +1,12 @@
-package rip.hippo.reflection.allocate;
+package rip.hippo.rumy.allocate;
 
-import rip.hippo.reflection.context.ClassContext;
-import rip.hippo.reflection.pattern.ParameterTypePatternMatcher;
-import rip.hippo.reflection.pattern.builder.StrongParameterTypePatternMatcherBuilder;
+import rip.hippo.rumy.context.ClassContext;
+import rip.hippo.rumy.pattern.ParameterTypePatternMatcher;
+import rip.hippo.rumy.pattern.builder.StrongParameterTypePatternMatcherBuilder;
 
 import java.lang.reflect.Constructor;
 
-import static rip.hippo.reflection.pattern.ParameterTypePatternMatcher.EMPTY;
+import static rip.hippo.rumy.pattern.ParameterTypePatternMatcher.EMPTY;
 
 /**
  * @author Hippo

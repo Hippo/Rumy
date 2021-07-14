@@ -1,13 +1,13 @@
-package rip.hippo.testing.reflection;
+package rip.hippo.testing.rumy;
 
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
-import rip.hippo.reflection.context.ClassContext;
-import rip.hippo.reflection.lookup.ClassLookup;
-import rip.hippo.testing.reflection.data.IntegerContainer;
-import rip.hippo.testing.reflection.data.StaticLogger;
+import rip.hippo.rumy.context.ClassContext;
+import rip.hippo.rumy.lookup.ClassLookup;
+import rip.hippo.testing.rumy.data.IntegerContainer;
+import rip.hippo.testing.rumy.data.StaticLogger;
 
-import static rip.hippo.reflection.allocate.ObjectAllocator.*;
+import static rip.hippo.rumy.allocate.ObjectAllocator.*;
 
 /**
  * @author Hippo

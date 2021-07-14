@@ -1,6 +1,6 @@
-package rip.hippo.reflection.pattern.impl;
+package rip.hippo.rumy.pattern.impl;
 
-import rip.hippo.reflection.pattern.ParameterTypePatternMatcher;
+import rip.hippo.rumy.pattern.ParameterTypePatternMatcher;
 
 import java.lang.reflect.Executable;
 

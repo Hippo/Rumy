@@ -1,6 +1,6 @@
-package rip.hippo.reflection.pattern.builder;
+package rip.hippo.rumy.pattern.builder;
 
-import rip.hippo.reflection.pattern.impl.StrongParameterTypePatternMatcher;
+import rip.hippo.rumy.pattern.impl.StrongParameterTypePatternMatcher;
 
 /**
  * @author Hippo
