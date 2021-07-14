@@ -1,0 +1,12 @@
+# Gradle
+.gradle/
+build/
+
+# IDEA
+.idea
+
+#OSX
+.DS_Store
+
+# Git
+.git/
