@@ -45,7 +45,7 @@ Strong pattern matching makes you specify the class types and the parameter valu
 ```java
 import static rip.hippo.rumy.allocate.ObjectAllocator.*;
 ClassContext classContext = ...;
-classContext.invoke("myMethod",ofStrong(int.class).then(420));
+classContext.invoke("myMethod", ofStrong(int.class).then(420));
 ```
 
 Weak pattern matching:
@@ -55,12 +55,12 @@ Weak pattern matching only makes you specify the parameter values.
 ```java
 import static rip.hippo.rumy.allocate.ObjectAllocator.*;
 ClassContext classContext = ...;
-classContext.invoke("betterMethod",ofWeak("Cool value"));
+classContext.invoke("betterMethod", ofWeak("Cool value"));
 ```
 
 The examples above shows you how to invoke methods with the parameter pattern matching, the same concept applies to allocating objects.
 
 ```java
 import static rip.hippo.rumy.allocate.ObjectAllocator.*;
-ClassContext classContext = allocate("MyClass",ofWeak("Another cool value"));
+ClassContext classContext = allocate("MyClass", ofWeak("Another cool value"));
 ```
