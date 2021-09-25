@@ -2,7 +2,6 @@ package rip.hippo.rumy.allocate;
 
 import rip.hippo.rumy.context.ClassContext;
 import rip.hippo.rumy.pattern.ParameterTypePatternMatcher;
-import rip.hippo.rumy.pattern.builder.StrongParameterTypePatternMatcherBuilder;
 
 import java.lang.reflect.Constructor;
 
@@ -10,7 +9,7 @@ import static rip.hippo.rumy.pattern.ParameterTypePatternMatcher.EMPTY;
 
 /**
  * @author Hippo
- * @version 1.1.0, 7/13/21
+ * @version 1.1.1, 7/13/21
  * @since 1.0.0
  */
 public enum ObjectAllocator {
@@ -46,13 +45,6 @@ public enum ObjectAllocator {
         return new ClassContext(parentClass, allocated);
     }
 
-    public static ParameterTypePatternMatcher ofWeak(Object... parameters) {
-        return ParameterTypePatternMatcher.ofWeak(parameters);
-    }
-
-    public static StrongParameterTypePatternMatcherBuilder ofStrong(Class<?>... parameterTypes) {
-        return ParameterTypePatternMatcher.ofStrong(parameterTypes);
-    }
 
     public static Constructor<?> findConstructor(Class<?> parentClass, ParameterTypePatternMatcher parameterTypePatternMatcher) {
         Class<?> current = parentClass;

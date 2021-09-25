@@ -8,6 +8,7 @@ import rip.hippo.testing.rumy.data.IntegerContainer;
 import rip.hippo.testing.rumy.data.StaticLogger;
 
 import static rip.hippo.rumy.allocate.ObjectAllocator.*;
+import static rip.hippo.rumy.pattern.ParameterTypePatternMatcher.*;
 
 /**
  * @author Hippo
