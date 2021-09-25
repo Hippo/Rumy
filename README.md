@@ -11,7 +11,7 @@ repositories {
 ```
 ```groovy
 dependencies {
-    implementation group: 'com.github.Hippo', name: 'Rumy', version: '1.0.0'
+    implementation group: 'com.github.Hippo', name: 'Rumy', version: '1.1.0'
 }
 ```
 

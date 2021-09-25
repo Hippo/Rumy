@@ -10,7 +10,7 @@ import static rip.hippo.rumy.pattern.ParameterTypePatternMatcher.EMPTY;
 
 /**
  * @author Hippo
- * @version 1.0.0, 7/13/21
+ * @version 1.1.0, 7/13/21
  * @since 1.0.0
  */
 public enum ObjectAllocator {
@@ -36,6 +36,14 @@ public enum ObjectAllocator {
         } catch (ReflectiveOperationException e) {
             throw new RuntimeException(e);
         }
+    }
+
+    public static ClassContext fromAllocated(Object allocated) {
+        return new ClassContext(allocated.getClass(), allocated);
+    }
+
+    public static ClassContext fromAllocated(Class<?> parentClass, Object allocated) {
+        return new ClassContext(parentClass, allocated);
     }
 
     public static ParameterTypePatternMatcher ofWeak(Object... parameters) {

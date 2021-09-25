@@ -13,7 +13,7 @@ import static rip.hippo.rumy.pattern.ParameterTypePatternMatcher.EMPTY;
 
 /**
  * @author Hippo
- * @version 1.0.0, 7/13/21
+ * @version 1.1.0, 7/13/21
  * @since 1.0.0
  */
 public final class ClassContext {
@@ -100,6 +100,14 @@ public final class ClassContext {
             }
             throw new RuntimeException(String.format("Could not find matching method in %s", this.parent));
         });
+    }
+
+    public Class<?> getParent() {
+        return parent;
+    }
+
+    public Object getInstance() {
+        return instance;
     }
 
     private static String generateUniqueName(Class<?> parentClass, String name, ParameterTypePatternMatcher parameterTypePatternMatcher) {
